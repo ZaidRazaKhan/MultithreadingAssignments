@@ -11,8 +11,8 @@ The job of the Producer is to generate the data, put it into the buffer, and aga
 What's the problem here?
 -----------------
 The following are the problems that might occur in the Producer-Consumer:
-* [The producer should produce data only when the buffer is not full. If the buffer is full, then the producer shouldn't be allowed to put any data into the buffer.]
-* [The consumer should consume data only when the buffer is not empty. If the buffer is empty, then the consumer shouldn't be allowed to take any data from the buffer.]
-* [The producer and consumer should not access the buffer at the same time.]
+* The producer should produce data only when the buffer is not full. If the buffer is full, then the producer shouldn't be allowed to put any data into the buffer.
+* The consumer should consume data only when the buffer is not empty. If the buffer is empty, then the consumer shouldn't be allowed to take any data from the buffer.
+* The producer and consumer should not access the buffer at the same time.
 
 
