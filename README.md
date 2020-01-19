@@ -15,4 +15,10 @@ The following are the problems that might occur in the Producer-Consumer:
 * The consumer should consume data only when the buffer is not empty. If the buffer is empty, then the consumer shouldn't be allowed to take any data from the buffer.
 * The producer and consumer should not access the buffer at the same time.
 
+# Dining Philosopher Problem
 
+🚀 Introduction
+=================
+The Dining Philosopher Problem states that K philosophers seated around a circular table with one chopstick between each pair of philosophers. There is one chopstick between each philosopher. A philosopher may eat if he can pickup the two chopsticks adjacent to him. One chopstick may be picked up by any one of its adjacent followers but not both.
+
+----------------------------------------------------------------------------------------------------------------------------------------
